@@ -8496,9 +8496,13 @@ button.close {
   content: "\f23a";
 }
 /* Site mixins */
-/* Site nav less */
 /* Variables for site */
+/* Site nav less */
 /* Site header less */
+/* */
+.fullwidth {
+  max-width: 100%;
+}
 /* Site footer less */
 .thumbnail img {
   min-height: 100px;
@@ -8510,6 +8514,38 @@ button.close {
 }
 hr {
   border: 1px solid #b3b3b3;
+}
+/* Height of footer */
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+
+  margin: 0 auto -60px;
+  /* Pad bottom */
+
+  padding: 0 0 60px;
+}
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+/* The tera-PROMISE logo div */
+#repo-logo-div {
+  height: 100px;
+  display: table;
+}
+/* The tera-PROMISE logo text */
+#repo-logo-text {
+  font-family: 'Courier New', Courier, monospace;
+  display: table-cell;
+  vertical-align: middle;
+}
+/* The Repo Home button in navbar */
+#repo-home-button {
+  background-color: #FDAF17;
 }
 .navbar {
   border: none;
