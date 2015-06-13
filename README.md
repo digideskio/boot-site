@@ -1,4 +1,4 @@
-# boots-and-cats-and
+# boot-site
 A site for playing around with Bootstrap
 
 # Update:
